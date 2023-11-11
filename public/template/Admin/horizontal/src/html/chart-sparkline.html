@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Spakline Charts | Adminox - Responsive Bootstrap 4 Admin Dashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="Coderthemes" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- App css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap-stylesheet" />
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css"  id="app-stylesheet" />
+
+    </head>
+
+    <body data-layout="horizontal">
+
+        <!-- Begin page -->
+        <div id="wrapper">
+
+            @@include('./partials/horizontal-nav.html')
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+
+            <div class="content-page">
+                <div class="content">
+                    
+                    <!-- Start Content-->
+                    <div class="container-fluid">
+                        
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box">
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Adminox</a></li>
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Charts</a></li>
+                                            <li class="breadcrumb-item active">Sparkline Charts</li>
+                                        </ol>
+                                    </div>
+                                    <h4 class="page-title">Sparkline Charts</h4>
+                                </div>
+                            </div>
+                        </div>     
+                        <!-- end page title --> 
+
+                        <div class="row">
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card-box">
+                                    <h4 class="header-title">Line Charts</h4>
+
+                                    <div class="text-center">
+                                        <h5 class="font-weight-normal text-muted">You have to pay</h5>
+                                        <h3 class="mb-3"><i class="mdi mdi-arrow-up-bold-hexagon-outline text-success"></i> 25643 <small>USD</small></h3>
+                                    </div>
+
+                                    <div class="">
+                                        <div id="sparkline1"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card-box">
+                                    <h4 class="header-title">Bar Chart</h4>
+
+                                    <div class="text-center">
+                                        <h5 class="font-weight-normal text-muted">You have to pay</h5>
+                                        <h3 class="mb-3"><i class="mdi mdi-arrow-down-bold-hexagon-outline text-danger"></i> 5623 <small>USD</small></h3>
+                                    </div>
+
+                                    <div class="">
+                                        <div id="sparkline2" class="text-center"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card-box">
+                                    <h4 class="header-title">Pie Chart</h4>
+
+                                    <div class="text-center">
+                                        <h5 class="font-weight-normal text-muted">You have to pay</h5>
+                                        <h3 class="mb-3"><i class="mdi mdi-arrow-up-bold-hexagon-outline text-success"></i> 32561 <small>USD</small></h3>
+                                    </div>
+
+                                    <div class="">
+                                        <div id="sparkline3" class="text-center"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card-box">
+                                    <h4 class="header-title">Custom Line Chart</h4>
+
+                                    <div class="text-center">
+                                        <h5 class="font-weight-normal text-muted">You have to pay</h5>
+                                        <h3 class="mb-3"><i class="mdi mdi-arrow-up-bold-hexagon-outline text-success"></i> 23657 <small>USD</small></h3>
+                                    </div>
+
+                                    <div class="">
+                                        <div id="sparkline4" class="text-center"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card-box">
+                                    <h4 class="header-title">Mouse Speed Chart</h4>
+
+                                    <div class="text-center">
+                                        <h5 class="font-weight-normal text-muted">You have to pay</h5>
+                                        <h3 class="mb-3"><i class="mdi mdi-arrow-up-bold-hexagon-outline text-success"></i> 894798 <small>USD</small></h3>
+                                    </div>
+
+                                    <div class="">
+                                        <div id="sparkline5" class="text-center"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card-box">
+                                    <h4 class="header-title">Composite bar Chart</h4>
+
+                                    <div class="text-center">
+                                        <h5 class="font-weight-normal text-muted">You have to pay</h5>
+                                        <h3 class="mb-3"><i class="mdi mdi-arrow-down-bold-hexagon-outline text-danger"></i> 254 <small>USD</small></h3>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <div id="sparkline6" class="text-center"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card-box">
+                                    <h4 class="header-title">Discrete Chart</h4>
+
+                                    <div class="text-center">
+                                        <h5 class="font-weight-normal text-muted">You have to pay</h5>
+                                        <h3 class="mb-3"><i class="mdi mdi-arrow-down-bold-hexagon-outline text-danger"></i> 5498 <small>USD</small></h3>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <div id="sparkline7" class="text-center"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card-box">
+                                    <h4 class="header-title">Bullet Chart</h4>
+
+                                    <div class="text-center">
+                                        <h5 class="font-weight-normal text-muted">You have to pay</h5>
+                                        <h3 class="mb-3"><i class="mdi mdi-arrow-down-bold-hexagon-outline text-danger"></i> 8948 <small>USD</small></h3>
+                                    </div>
+
+                                    <div class="text-center" style="min-height: 165px;">
+                                        <div id="sparkline8" class="text-center mb-3"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card-box">
+                                    <h4 class="header-title">Box Plot Chart</h4>
+
+                                    <div class="text-center">
+                                        <h5 class="font-weight-normal text-muted">You have to pay</h5>
+                                        <h3 class="mb-3"><i class="mdi mdi-arrow-down-bold-hexagon-outline text-danger"></i> 1651 <small>USD</small></h3>
+                                    </div>
+
+                                    <div class="text-center" style="min-height: 165px;">
+                                        <div id="sparkline9" class="text-center mb-3"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card-box">
+                                    <h4 class="header-title">Tristate Charts</h4>
+
+                                    <div class="text-center">
+                                        <h5 class="font-weight-normal text-muted">You have to pay</h5>
+                                        <h3 class="mb-3"><i class="mdi mdi-arrow-down-bold-hexagon-outline text-danger"></i> 8484 <small>USD</small></h3>
+                                    </div>
+
+                                    <div class="text-center" style="min-height: 165px;">
+                                        <div id="sparkline10" class="text-center mb-3"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- end row -->
+                        
+                    </div> <!-- end container-fluid -->
+
+                </div> <!-- end content -->
+
+                @@include('./partials/footer.html')
+
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+        </div>
+        <!-- END wrapper -->
+
+        @@include('./partials/right-sidebar.html')
+
+        <!-- Vendor js -->
+        <script src="assets/js/vendor.min.js"></script>
+
+        <!-- Sparkline charts -->
+        <script src="assets/libs/jquery-sparkline/jquery.sparkline.min.js"></script>
+
+        <!-- init js -->
+        <script src="assets/js/pages/sparkline.init.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.min.js"></script>
+        
+    </body>
+</html>

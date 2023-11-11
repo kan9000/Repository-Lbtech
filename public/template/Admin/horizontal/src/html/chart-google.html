@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Google Charts | Adminox - Responsive Bootstrap 4 Admin Dashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="Coderthemes" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- App css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap-stylesheet" />
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css"  id="app-stylesheet" />
+
+    </head>
+
+    <body data-layout="horizontal">
+
+        <!-- Begin page -->
+        <div id="wrapper">
+
+            @@include('./partials/horizontal-nav.html')
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+
+            <div class="content-page">
+                <div class="content">
+                    
+                    <!-- Start Content-->
+                    <div class="container-fluid">
+                        
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box">
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Adminox</a></li>
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Charts</a></li>
+                                            <li class="breadcrumb-item active">Google Charts</li>
+                                        </ol>
+                                    </div>
+                                    <h4 class="page-title">Google Charts</h4>
+                                </div>
+                            </div>
+                        </div>     
+                        <!-- end page title --> 
+
+                        <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="card-box">
+                                        <h4 class="header-title">Line chart</h4>
+    
+                                        <div class="text-center">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Lifetime total sales</p>
+                                                        <h3 class="text-danger"><i class="mdi mdi-arrow-down"></i> 256</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Income amounts</p>
+                                                        <h3 class="text-success"><i class="mdi mdi-arrow-up"></i> 39652</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Total visits</p>
+                                                        <h3 class="text-warning"><i class="mdi mdi-arrow-up"></i> 7852</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="chart mt-3" id="line-chart"></div>
+                                    </div>
+                                </div>
+    
+                                <div class="col-lg-6">
+                                    <div class="card-box">
+                                        <h4 class="header-title">Area Chart</h4>
+    
+                                        <div class="text-center">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Lifetime total sales</p>
+                                                        <h3 class="text-danger"><i class="mdi mdi-arrow-down"></i> 5628</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Income amounts</p>
+                                                        <h3 class="text-success"><i class="mdi mdi-arrow-up"></i> 3652</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Total visits</p>
+                                                        <h3 class="text-warning"><i class="mdi mdi-arrow-up"></i> 7841</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="chart mt-3" id="area-chart"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end row -->
+    
+    
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="card-box">
+                                        <h4 class="header-title">Column Chart</h4>
+    
+                                        <div class="text-center">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Lifetime total sales</p>
+                                                        <h3 class="text-danger"><i class="mdi mdi-arrow-down"></i> 256</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Income amounts</p>
+                                                        <h3 class="text-success"><i class="mdi mdi-arrow-up"></i> 39652</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Total visits</p>
+                                                        <h3 class="text-warning"><i class="mdi mdi-arrow-up"></i> 7852</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="chart mt-3" id="column-chart"></div>
+                                    </div>
+                                </div>
+    
+                                <div class="col-lg-6">
+                                    <div class="card-box">
+                                        <h4 class="header-title">Bar Charts</h4>
+    
+                                        <div class="text-center">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Lifetime total sales</p>
+                                                        <h3 class="text-danger"><i class="mdi mdi-arrow-down"></i> 3251</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Income amounts</p>
+                                                        <h3 class="text-success"><i class="mdi mdi-arrow-up"></i> 85741</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Total visits</p>
+                                                        <h3 class="text-warning"><i class="mdi mdi-arrow-up"></i> 352</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="chart mt-3" id="bar-chart"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end row -->
+    
+    
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="card-box">
+                                        <h4 class="header-title">Stacked column charts</h4>
+    
+                                        <div class="text-center">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Lifetime total sales</p>
+                                                        <h3 class="text-danger"><i class="mdi mdi-arrow-down"></i> 2541</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Income amounts</p>
+                                                        <h3 class="text-success"><i class="mdi mdi-arrow-up"></i> 11243</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Total visits</p>
+                                                        <h3 class="text-warning"><i class="mdi mdi-arrow-up"></i> 336952</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="chart mt-3" id="column-stacked-chart"></div>
+                                    </div>
+                                </div>
+    
+                                <div class="col-lg-6">
+                                    <div class="card-box">
+                                        <h4 class="header-title">Stacked bar charts</h4>
+    
+                                        <div class="text-center">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Lifetime total sales</p>
+                                                        <h3 class="text-danger"><i class="mdi mdi-arrow-down"></i> 36521</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Income amounts</p>
+                                                        <h3 class="text-success"><i class="mdi mdi-arrow-up"></i> 6969</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Total visits</p>
+                                                        <h3 class="text-warning"><i class="mdi mdi-arrow-up"></i> 130295</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="chart mt-3" id="bar-stacked-chart"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end row -->
+    
+    
+    
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="card-box">
+                                        <h4 class="header-title">Pie Chart</h4>
+    
+                                        <div class="text-center">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Lifetime total sales</p>
+                                                        <h3 class="text-danger"><i class="mdi mdi-arrow-down"></i> 845</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Income amounts</p>
+                                                        <h3 class="text-success"><i class="mdi mdi-arrow-up"></i> 5624</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Total visits</p>
+                                                        <h3 class="text-warning"><i class="mdi mdi-arrow-up"></i> 3848</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="google-chart text-center">
+                                            <div class="chart mt-3" id="pie-chart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="col-lg-6">
+                                    <div class="card-box">
+                                        <h4 class="header-title">Donut Chart</h4>
+    
+                                        <div class="text-center">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Lifetime total sales</p>
+                                                        <h3 class="text-danger"><i class="mdi mdi-arrow-down"></i> 36521</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Income amounts</p>
+                                                        <h3 class="text-success"><i class="mdi mdi-arrow-up"></i> 9856</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Total visits</p>
+                                                        <h3 class="text-warning"><i class="mdi mdi-arrow-up"></i> 78521</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="google-chart text-center">
+                                            <div class="chart mt-3" id="donut-chart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end row -->
+    
+    
+    
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="card-box">
+                                        <h4 class="header-title">3D Pie Chart</h4>
+    
+                                        <div class="text-center">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Lifetime total sales</p>
+                                                        <h3 class="text-danger"><i class="mdi mdi-arrow-down"></i> 2584</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Income amounts</p>
+                                                        <h3 class="text-success"><i class="mdi mdi-arrow-up"></i> 7412</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Total visits</p>
+                                                        <h3 class="text-warning"><i class="mdi mdi-arrow-up"></i> 36987</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="google-chart text-center">
+                                            <div class="chart mt-3" id="pie-3d-chart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="col-lg-6">
+                                    <div class="card-box">
+                                        <h4 class="header-title">Exploding a Slice</h4>
+    
+                                        <div class="text-center">
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Lifetime total sales</p>
+                                                        <h3 class="text-danger"><i class="mdi mdi-arrow-down"></i> 256</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Income amounts</p>
+                                                        <h3 class="text-success"><i class="mdi mdi-arrow-up"></i> 39652</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <div class="mt-4 mb-3">
+                                                        <p class="text-uppercase font-13 font-weight-medium">Total visits</p>
+                                                        <h3 class="text-warning"><i class="mdi mdi-arrow-up"></i> 7852</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                        <div class="google-chart text-center">
+                                            <div class="chart mt-3" id="3d-exploded-chart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end row -->
+                        
+                    </div> <!-- end container-fluid -->
+
+                </div> <!-- end content -->
+
+                @@include('./partials/footer.html')
+
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+        </div>
+        <!-- END wrapper -->
+
+        @@include('./partials/right-sidebar.html')
+
+        <!-- Vendor js -->
+        <script src="assets/js/vendor.min.js"></script>
+
+        <!-- Google Charts js -->
+        <script src="https://www.google.com/jsapi"></script>
+
+        <script src="assets/js/pages/google-charts.init.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.min.js"></script>
+        
+    </body>
+</html>
